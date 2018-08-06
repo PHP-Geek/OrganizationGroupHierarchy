@@ -1,0 +1,195 @@
+a{color:#c8d046;}
+a:hover{color: #f1a801;}
+.custom-navbar{
+    background: #444d58;
+    border-color: #444d58;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.custom-navbar .navbar-nav>.open>a, .custom-navbar .navbar-nav>.open>a:focus, .custom-navbar .navbar-nav>.open>a:hover {
+    background-color: transparent;
+}
+.custom-navbar .navbar-nav>li>a, .custom-navbar .navbar-nav>li>a:hover,
+.custom-navbar .navbar-nav>li>a:focus, .custom-navbar .navbar-nav>.open>a,
+.custom-navbar .navbar-nav>.open>a:hover, .custom-navbar .navbar-nav>.open>a:focus{
+    color:#f1f1f1;
+}
+
+.page-header {
+    background:#417d6b ;
+}
+.page-header .page-header-top .page-logo .logo-default {
+    margin: 21.5px 0 0;
+}
+.form-header-custom {
+    background: #2D6957;
+    border-color: #276351;
+    color: #fff !important;
+}
+.form-header-custom::-moz-placeholder {
+    color: #fff;
+}
+.margin-top-0{
+    margin-top:0px;
+}
+.btn-bluee, .btn-bluee:hover{
+    color: #FFF !important;
+    background-color: #3fc9d5 !important;
+    border-color: #3fc9d5 !important;
+}
+.btn-green{
+    background-color: #417d6b !important;
+    border-color:#417d6b !important;
+}
+.text-white{
+    color:#fff !important;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.font-18{
+    font-size: 18px;
+}
+.margin-top-32{
+    margin-top: 32px;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.margin-7{
+    margin-top: 7px;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+.clr-green{
+    color:#417d6b !important;
+}
+.font-red-sunglo {
+    color: #E26A6A !important;
+
+}
+.margin-tb-20{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.box{
+    border:1px solid #ddd;
+}
+.page-header .top-menu, .page-header .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle, .page-header-fixed-mobile .page-header .top-menu {
+    background-color: #417d6b;
+}
+.page-header .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle:hover {
+    background-color:#417d6b !important;
+}
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown:active .dropdown-toggle, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown:focus .dropdown-toggle {
+    background-color: #417d6b !important;
+}
+.border-left{
+    border-left: transparent!important;
+}
+/* Add datatable pagination css Start*/
+
+ul.pagination .paginate_button {
+    padding: 2px !important;
+    margin: 0;
+    border: transparent !important;
+}
+.pagination>li>a{  margin: 0;}
+
+ul.pagination .paginate_button:hover, ul.pagination .paginate_button:focus, ul.pagination .paginate_button:active {
+    background: transparent !important;
+    border: transparent !important;
+    box-shadow: inherit;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, 
+.pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    background-color: #417d6b;
+    border-color: #417d6b; 
+    box-shadow: transparent;
+}
+/* Add datatable pagination css End*/
+
+/* Add Active class  for top navbar css start*/
+
+.custom-navbar .navbar-nav li.active a, .custom-navbar .navbar-nav li a:hover,
+.custom-navbar .navbar-nav li.active a:hover, .custom-navbar .navbar-nav li.active a:focus,
+.custom-navbar .navbar-nav .dropdown.active .dropdown-menu li a:hover,
+.custom-navbar .navbar-nav .dropdown.active .dropdown-menu li a:focus,
+.custom-navbar .navbar-nav .dropdown.active .dropdown-menu li.active a:focus,
+.custom-navbar .navbar-nav .dropdown.active .dropdown-menu li.active a{
+    background: transparent;
+    color: #f1a801;
+}
+.custom-navbar .navbar-nav .dropdown.active .dropdown-menu li a {
+    color: #555;
+}
+
+.custom-navbar .navbar-nav .dropdown.open .dropdown-menu li.active:after{
+    display: none!important;
+}
+.custom-navbar .navbar-nav li.active:after {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f1a801;
+    content: " ";
+    position: absolute;
+    bottom: -1px;
+    left: 40%;
+}
+.sweet-alert{
+    z-index: 10055 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 31px !important;
+}
+.select2-container .select2-selection--single {
+    height: 34px !important;
+}
+/* Add Active class for top navbar css End*/
+
+.color-white-soft{
+    color: #d2d2d2!important;
+}
+.btn-orange{
+    background-color: #f1a801!important;
+    border-color: #f1a801!important; 
+    color: #fff!important;
+}
+.page-prefooter .subscribe-form .btn {
+    background-color: #f1a801!important;
+    border-color: #f1a801!important;
+}
+
+@media (max-width: 1024px){
+    .tree li a {
+        padding: 6px 14px!important;
+        font-size: 11px!important;
+    }
+    .tree ul {
+        padding-left: 0!important;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width:480px ){
+    .dropdown.dropdown-user.dropdown-dark {
+        margin-top:-40px !important;
+    }
+
+}
+@media only screen and (min-width: 480px) and (max-width:980px ){
+
+}
+@media only screen and (min-width: 1280px) and (max-width:1600px ){
+    .dropdown.dropdown-user.dropdown-dark {
+        margin-top:3x !important;
+    }
+}
+@media (max-width: 480px){
+    .login .content {
+        width: 90%!important;
+    }
+}

@@ -1,0 +1,96 @@
+.page-header {
+    background:#417d6b ;
+}
+.page-header .page-header-top .page-logo .logo-default {
+    margin: 21.5px 0 0;
+}
+.bg-red{
+    background-color:#E26A6A !important
+}
+.form-header-custom {
+    background: #2D6957;
+    border-color: #276351;
+    color: #fff !important;
+}
+.form-header-custom::-moz-placeholder {
+    color: #fff;
+}
+.margin-top-0{
+    margin-top:0px;
+}
+.btn-bluee, .btn-bluee:hover{
+    color: #FFF !important;
+    background-color: #3fc9d5 !important;
+    border-color: #3fc9d5 !important;
+}
+.btn-green{
+    background-color: #417d6b !important;
+    border-color:#417d6b !important;
+}
+.text-white{
+    color:#fff !important;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.font-18{
+    font-size: 18px;
+}
+.margin-top-32{
+    margin-top: 32px;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.margin-7{
+    margin-top: 7px;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+.clr-green{
+    color:#417d6b !important;
+}
+.font-red-sunglo {
+    color: #E26A6A !important;
+
+}
+.margin-tb-20{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.box{
+    border:1px solid #ddd;
+}
+.page-header .top-menu, .page-header .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle, .page-header-fixed-mobile .page-header .top-menu {
+    background-color: #417d6b;
+}
+.page-header .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle:hover {
+    background-color:#417d6b !important;
+}
+.page-header .page-header-top .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown:active .dropdown-toggle, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown:focus .dropdown-toggle {
+    background-color: #417d6b !important;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width:480px ){
+    .dropdown.dropdown-user.dropdown-dark {
+        margin-top:-40px !important;
+    }
+/*    .page-header {
+        height: 126px;
+    }*/
+}
+@media only screen and (min-width: 480px) and (max-width:980px ){
+    
+/*    .page-header {
+        height: 126px;
+    }*/
+}
+@media only screen and (min-width: 1280px) and (max-width:1600px ){
+    .dropdown.dropdown-user.dropdown-dark {
+        margin-top:3x !important;
+    }
+}
